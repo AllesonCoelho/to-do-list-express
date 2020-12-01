@@ -85,7 +85,7 @@ router.delete('/:id', async (req, res) => {
         res.redirect('/checklists')
         
     } catch (error) {
-        res.status(200).render('/pages/error', {error: "Erro ao deletas as tarefas"})
+        res.status(200).render('/pages/error', {error: "Erro ao deletar as tarefas"})
         
     }
 })
